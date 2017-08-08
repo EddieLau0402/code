@@ -1,0 +1,19 @@
+{
+    "name": "eddie/coupon_code",
+    "description": "Laravel 串码提取,源慧",
+    "keywords": ["Laravel5","源慧","串码提取"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eddie",
+            "email": "277676978@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Eddie\\CouponCode\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
