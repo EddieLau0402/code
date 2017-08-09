@@ -11,7 +11,7 @@ class CouponCodeManager
     {
         switch (strtolower($provider)) {
             case 'yuanhui':
-                $config = config('coupon.yuanhui');
+                $config = config('coupon_code.yuanhui');
                 return new Yuanhui($config);
 
 
